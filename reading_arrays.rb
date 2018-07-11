@@ -8,7 +8,7 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  STUDENT_NAMES.first
+  STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
@@ -16,7 +16,7 @@ def fourth_student_by_index
 end
 
 def last_student_by_index
-  STUDENT_NAMES.last
+  STUDENT_NAMES[5]
 end
 
 def first_student_by_method
@@ -25,9 +25,8 @@ end
 
 def last_student_by_method
     STUDENT_NAMES.last
-
 end
 
 def first_second_and_third_students
-  # Write a solution that returns the first, second and third students
+  STUDENT_NAMES[0, 1, 2]
 end
