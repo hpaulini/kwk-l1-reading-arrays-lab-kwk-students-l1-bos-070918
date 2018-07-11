@@ -16,7 +16,7 @@ def fourth_student_by_index
 end
 
 def last_student_by_index
-  STUDENT_NAMES.LAST
+  STUDENT_NAMES.last
 end
 
 def first_student_by_method
